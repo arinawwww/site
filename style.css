@@ -1,0 +1,155 @@
+*  {
+    margin: 0px;
+}
+header {
+   
+    background-color: rgba(255, 255, 255, 0.203);
+    box-shadow:0 0 20px #ffffff;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 110%;
+}
+.img1 {
+    margin-left: 1.5%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    width: 5.3%;
+}
+.head {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(216, 112, 147);
+    text-decoration: none;
+    font-weight: bold;
+    margin: 4%;
+    color: rgb(255, 255, 255);
+    margin-right: 2%;
+}   
+.head:hover {
+    color: rgb(216, 112, 147)
+}
+.sait {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 400px;
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    font-size: 130%;
+    height: 120%;
+    margin-right: 250px;
+    margin-left: 250px;
+    border-radius: 10%;
+    height: 440px;
+
+}
+body::before {
+    content: '';
+    z-index: -1;
+    position: fixed;
+    left: 0; right: 0; 
+    top: 0; bottom: 0;
+    background-image: url(img/veronika-bykovich--umXNG5C544-unsplash-3.jpg);
+    filter: blur(2px);
+    filter: brightness(75%);
+}
+body {
+    color: aliceblue;
+}
+.logo {
+    display: flex;
+}
+.img2 {
+    width: 30%;
+    display: flex;
+  
+    
+}
+
+    
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+.pp {
+    font-size:110%;
+    margin-left: 13%;
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    color: rgb(255, 255, 255);
+    align-items: center;
+    
+    
+}
+.img2 {
+    margin-left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+#work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+   
+    color: rgb(255, 255, 255);
+    flex-direction: column;
+    font-size: 130%;
+    height: 120%;
+  
+   
+   
+    background-color: rgba(255, 255, 255, 0.203);
+}
+.ppp {
+    font-size:110%;
+    margin-top: 5px;
+    margin-bottom: 100px;
+    text-align:justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+.items{
+    margin-bottom: 95px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 200px;
+    font-size: 24px;
+    
+}
+.a {
+    color: #ffffff;
+}
+.a:hover {
+    color:rgb(216, 112, 147)
+}
+footer {
+height: 50px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgba(255, 255, 255, 0.203);
+
+box-shadow:0 0 20px #ffffff;
+}
